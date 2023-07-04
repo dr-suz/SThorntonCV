@@ -29,9 +29,6 @@
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{etoolbox,refcount}
 \RequirePackage{calc}
-\RequirePackage{enumitem}
-\RequirePackage{fancyhdr}
-\RequirePackage{etoolbox}
 \RequirePackage{setspace}
 \RequirePackage{lipsum}
 
