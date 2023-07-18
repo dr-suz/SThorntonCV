@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.27)  18 JUL 2023 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.27)  18 JUL 2023 09:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**cover_letter_human.tex
-(./cover_letter_human.tex
+**cover_letter_general.tex
+(./cover_letter_general.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -723,8 +723,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 43.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 43.
- (./cover_letter_human.aux)
-\openout1 = `cover_letter_human.aux'.
+ (./cover_letter_general.aux)
+\openout1 = `cover_letter_general.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -837,9 +837,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
- (./cover_letter_human.out) (./cover_letter_human.out)
+ (./cover_letter_general.out) (./cover_letter_general.out)
 \@outlinefile=\write4
-\openout4 = `cover_letter_human.out'.
+\openout4 = `cover_letter_general.out'.
 
 
 
@@ -867,21 +867,21 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./cover_letter_human.aux)
+(./cover_letter_general.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `cover_letter_human.out' has not changed.
+Package rerunfilecheck Info: File `cover_letter_general.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  25595 strings out of 478268
- 497610 string characters out of 5846347
- 782888 words of memory out of 5000000
+ 497642 string characters out of 5846347
+ 782900 words of memory out of 5000000
  43363 multiletter control sequences out of 15000+600000
  475123 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,122p,1221b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,12n,122p,1223b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 }{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}<
@@ -892,7 +892,7 @@ some5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 /public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/public/cm-super/sfsl1095.pfb>
-Output written on cover_letter_human.pdf (1 page, 91397 bytes).
+Output written on cover_letter_general.pdf (1 page, 91913 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
