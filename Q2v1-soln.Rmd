@@ -1,5 +1,5 @@
 ---
-title: "Quiz 2 for Stat 11"
+title: "Quiz 2 for Stat 11 (Solutions)"
 date: "9.10.23"
 output:
   pdf_document: 
@@ -13,52 +13,26 @@ output:
 
 **1.** The administration of a large university is interested in learning about the types of wellness programs that would interest its employees. Suppose that there are five categories of employees (administration, faculty, professional, staff, clerical, and maintenance) and the university decides to randomly select ten individuals from each category. What is this sampling plan called?
 
-(a) Cluster Sampling
-
-(b) Convenience Sampling
-
 (c) Stratified Sampling
 
-(d) Systematic Sampling
-
-(e) Simple Random Sampling
 
 \vspace{1cm}
 **2.**  Which of these can be modeled with a *Binomial* distribution?
 
-(a) the number of people we survey until we find someone who has taken Statistics
-
-(b) the number of people we survey until we find two people who have taken Statistics
 
 (c) the number of people in a class of 25 who have taken Statistics
 
-(d) whether or not a student has taken Statistics
-
-(e) the number of people registered for a Statistics class
 
 \vspace{1cm}
 **3.** We wish to compare the average ages of the math and science teachers at a high school. Which is the best way to collect the data?
 
-(a) Observational study 
-
 (b) Census 
 
-(c) Simulation
 
-(d) Sample survey 
-
-(e) Experiment 
 
 \vspace{1cm}
 **4.**  On a physical fitness test middle school boys are awarded one point for each push-up they can do, and a point for each sit-up. National results showed that this group of boys average *18 push ups with a standard deviation of 4 push-ups, and average 34 sit-ups with standard deviation 11*. The mean of their combined (total) scores was therefore $18+34=52$ points. What is the standard deviation of their combined scores? 
 
-(a) 137 
-
-(b) 5.3 
-
-(c) 15 
-
-(d) 3.7
 
 (e) Cannot be determined
 
@@ -79,15 +53,9 @@ output:
 \vspace{1cm}
 **6.**  At the track, a gambler bets on the wrong horse in a 10-horse field nine times in a row. Later, when talking to a friend, he said he was confident that he would pick the winner the next time, because he was "due to pick a winner." Which of the comments below is most correct. 
 
-(a) If he doesn't pick the winning horse next time, he will shortly after that.
 
 (b) This is false reasoning because there is no "law of averages" for independent events.
  
-(c) When there are 10 horses in a race and he has chosen the wrong horse nine times in a row, he statistically should pick a winner the next time.
-
-(d) This is false reasoning because he doesn't appear to be lucky.
-
-(e) None of the above apply.
 
 \vspace{1cm}
 **7.**  In a messy sock drawer, there are $25$ (single) socks. Ten of these socks are black, twelve of them are white, and three of them have colorful patterns on them. If you select two socks at random, what is the probability that you select two black socks?
