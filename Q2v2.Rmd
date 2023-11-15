@@ -121,7 +121,7 @@ output:
 
 **To be eligible for partial credit, your answer must show all of your work and/or explain all of your reasoning.**
 
-**9.**   A poll of 120 Ithacans found that 45 had visited the Museum of the Earth, and that 75 had been to Home Depot. Suppose we can assume that going to Home Depot and going to the Museum of the Earth are *independent events*. 
+**9.**   A poll of 120 Ithacans found that 30 had visited the Museum of the Earth, and that 75 had been to Home Depot. Suppose we can assume that going to Home Depot and going to the Museum of the Earth are *independent events*. 
 
 Of all the people polled $\rule{3cm}{0.15mm}$ people have been to both. 
 
