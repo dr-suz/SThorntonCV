@@ -2,8 +2,8 @@
 title: "Project Homework 4 Solutions"
 author: "STAT011 with Prof Suzy"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 
@@ -53,7 +53,7 @@ xbar + (t_crit*SE)
 
 ### For graders
 
-Note there is a typo in the intro paragraph where I state that the sample size is $n=1414$. The correct sample size is $n=1413$ so please give credit to students who use either sample size. 
+For full credit, answers must include a written statement noting the confidence interval within the context of the problem. 
 
 
 # Problem 2 
@@ -69,7 +69,7 @@ One could use the following code:
 table(gardasil$Completed)
 prop.test(469, n=1413, conf.level = 0.9, correct=FALSE) 
 ```
-Or, equivalently, 
+Or, equivalently (except for small rounding error in the lower bound), 
 ```{r}
 table(gardasil$Completed)
 n = 1413
@@ -78,7 +78,7 @@ p_hat = x/n
 z_crit = qnorm((1-0.9)/2,0,1,lower.tail=FALSE)
 SE = sqrt(p_hat*(1-p_hat)/n)
 p_hat - (z_crit * SE)
-p_hat + (z_crit * SE)
+p_hat + (z_crit * SE) 
 ```
 
 
@@ -93,58 +93,43 @@ Determine how many **more** patients we would need to survey in order to find a 
 
 
 
-## Solution 3 REDO
+## Solution 3 
 
-**Version 1)** $\hat{p}=\frac{\text{number of non-white patients who have completed all three shots}}{\text{number of non-white patients}}$ 
+$\hat{p}=\frac{\text{number of patients who have completed all three shots}}{\text{number of patients}}$ 
 
-```{r}
-table(gardasil$Race)
-n_nonW = 443+52+186
-
-table(gardasil$Completed[gardasil$Race!=0])
-x_complete = 189
-
-ME = 0.1
-z_star = qnorm((1-0.95)/2,0,1,lower.tail=TRUE)
-p_hat = x_complete / n_nonW 
-
-(p_hat*(1-p_hat))/(ME/z_star)^2
-```
-The required sample size is $n \geq 78$, which is smaller than the sample we already have. Thus, we don't need any additional patients to produce the required CI. 
-
-**Version 2)** $\hat{p}=\frac{\text{number of non-white patients who have completed all three shots}}{\text{number of patients who completed all three shots}}$
-
+**Version 1)** 
 
 ```{r}
 table(gardasil$Completed)
-n_complete = 469
-
-table(gardasil$Race[gardasil$Completed==1])
-x_nonW = 105+17+67 
-
+n_completed = 469
+n_total = 1413
+  
 ME = 0.1
 z_star = qnorm((1-0.95)/2,0,1,lower.tail=TRUE)
-p_hat = x_nonW / n_complete 
+p_hat = n_completed / n_total 
 
 (p_hat*(1-p_hat))/(ME/z_star)^2
 ```
-The required sample size is $n \geq 93$, which is smaller than the sample we already have. Thus, we don't need any additional patients to produce the required CI. 
+The required sample size is $n \geq$ `r round((p_hat*(1-p_hat))/(ME/z_star)^2,2)`, which is smaller than the sample we already have. Thus, we don't need any additional patients to produce the required CI. 
 
+**Version 2)**  
 
-**Version 3)** Suppose $\hat{p}$ is not yet observed and use a value of $0.5$ to answer the problem.
+This version gives a slightly more conservative sample size estimate using a $\hat{p}$ value set to $0.5$. 
 
 ```{r}
 ME = 0.1
 z_star = qnorm((1-0.95)/2,0,1,lower.tail=TRUE)
+p_hat = 0.5 
 
-(0.5*(1-0.5))/(ME/z_star)^2
+(p_hat*(1-p_hat))/(ME/z_star)^2
 ```
-The required sample size is $n \geq 97$, which is smaller than the sample we already have. Thus, we don't need any additional patients to produce the required CI. 
+The required sample size is $n \geq$ `r round((p_hat*(1-p_hat))/(ME/z_star)^2,2)`, which is smaller than the sample we already have. Thus, we don't need any additional patients to produce the required CI. 
+
 
 
 ### For graders: 
 
-There are actually a several valid ways to think about this problem. Please grade this problem for completion rather than for correctness.
+Please grade this problem for **completion** rather than for correctness.
 
 
 # Problem 4 
@@ -157,7 +142,7 @@ Conduct a hypothesis test to determine if the average number of shots per patien
 
 (c) Regardless of your assessment in part (b), conduct the test in part (a) and state the p-value and your conclusion within the context of the problem. 
 
-## Solution 4 REDO
+## Solution 4 
 
 (a) Let $\mu =$ average number of shots completed by interested 11-26 year old patients. We are testing 
 $$H_0: \mu = 3, \quad\text{vs}\quad H_A:\mu < 3.$$ 
