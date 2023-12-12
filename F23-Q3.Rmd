@@ -188,15 +188,26 @@ To answer the question of whether or not this data indicates that the problem is
 
 
 \pagebreak 
-**17.** Insurance companies track life expectancy information to assist in determining the cost of life insurance policies. Last year the average life expectancy of all policyholders was 77 years. ABI Insurance wants to determine if their clients now have a longer life expectancy, on average, so they randomly sample $105$ of their recently paid policies. The insurance company will only change their premium structure if there is evidence that people who buy their policies are living longer than before. 
+**17.** Between 1954 and 2016, swimmers have crossed Lake Ontario 62 times. Both men and women have swam this distance and some summary statistics for each group are displayed below. Use this information to conduct a hypothesis test that can answer the question of whether or not there is a difference between the mean amount of time (in minutes) it takes women and men swimmers to swim the lake. 
+
+| Summary of Time | (min) |  | |
+| --- | --- | --- | --- |
+| Group | Count | mean | std. dev. | 
+| Women | 36 | 1262.08 | 254.701 | 
+| Men | 25 | 1226.29 | 368.022 | 
+
+
+
+<!--Insurance companies track life expectancy information to assist in determining the cost of life insurance policies. Last year the average life expectancy of all policyholders was 77 years. ABI Insurance wants to determine if their clients now have a longer life expectancy, on average, so they randomly sample $105$ of their recently paid policies. The insurance company will only change their premium structure if there is evidence that people who buy their policies are living longer than before. 
 
 Given the data and summary statistics below, perform a hypothesis test to determine whether or not the company should change their premium structure. 
 
 ```{r echo=FALSE}
-age_of_deceased <- round(rchisq(n=105, df=74),0) 
+age_of_deceased <- round(rchisq(n=105, df=84),0) 
 ```
 
 ```{r echo=TRUE}
 mean(age_of_deceased)
 sd(age_of_deceased)
-```
+``` 
+-->
