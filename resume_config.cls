@@ -14,6 +14,7 @@
 %-------------------------------------------------------------------------------
 %                Packages
 %-------------------------------------------------------------------------------
+%\usepackage{lwarp}     %used to generate a html file
 
 \RequirePackage{geometry}
 \RequirePackage[hidelinks]{hyperref}
