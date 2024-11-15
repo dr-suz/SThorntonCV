@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.27)  14 NOV 2024 16:51
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.27)  15 NOV 2024 15:13
  restricted system commands enabled.
  file:line:error style messages enabled.
 **2024-11-14-resume.tex
@@ -781,25 +781,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./2024-11-14-resume.aux)
-
-Package rerunfilecheck Warning: File `2024-11-14-resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `2024-11-14-resume.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  20A67922F80DEE8BB8CBF19F60CDFEE5;287.
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[2] (./2024-11-14-resume.aux)
+Package rerunfilecheck Info: File `2024-11-14-resume.out' has not changed.
+(rerunfilecheck)             Checksum: 20A67922F80DEE8BB8CBF19F60CDFEE5;287.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17957 strings out of 477785
+ 17961 strings out of 477785
  125007,953878 words of node,token memory allocated
  470 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 60 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:1704,3:564,4:256,5:1266,6:137,7:11547,8:32,9:756,10:16,11:977
- 38126 multiletter control sequences out of 65536+600000
+   avail lists: 2:1680,3:540,4:244,5:1353,6:131,7:12094,8:32,9:735,10:16,11:1064
+
+ 38130 multiletter control sequences out of 65536+600000
  51 fonts using 5546879 bytes
  87i,6n,97p,1390b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-
@@ -807,10 +803,10 @@ italic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/tex-gyre/te
 xgyreheros-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public
 /tex-gyre/texgyreheros-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb>
-Output written on 2024-11-14-resume.pdf (1 page, 25594 bytes).
+Output written on 2024-11-14-resume.pdf (2 pages, 26558 bytes).
 
-PDF statistics: 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+PDF statistics: 60 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 25 words of extra memory for PDF output out of 10000 (max. 100000000)
 
