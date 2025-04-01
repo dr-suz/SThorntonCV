@@ -1,0 +1,84 @@
+------------------
+References 
+------------------
+
+Adam Pintar 
+
+Rochelle Tracteberg
+Dr. Rochelle Tractenberg; PhD, MPH, PhD, PStat®, FASA, FAAAS
+Director, Collaborative for Research on Outcomes and -Metrics
+http://crom.gumc.georgetown.edu
+Professor
+Neurology
+Biostatistics, Bioinformatics & Biomathematics
+Rehabilitation Medicine
+Georgetown University Medical Center
+291 Building D
+4000 Reservoir Road NW
+Washington, D.C. 20057
+Professional email: rochelle.tractenberg@georgetown.edu
+Personal email: rochelle.tractenberg@gmail.com
+
+Donna LaLonde 
+Associate Executive Director
+American Statistical Association
+732 N Washington St
+Alexandria, VA 22314
+Professional email: DonnaL@amstat.org
+Personal email: zzlalo@gmail.com
+
+
+
+--------------
+About Me
+--------------
+Rutgers University
+PHD
+Statistics
+GPA: 3.688
+
+University of Florida
+BS
+Mathematics 
+GPA: 3.69
+
+Websites: https://dr-suz.github.io/
+LinkedIn: https://www.linkedin.com/in/suzanne-thornton-0a535645/
+
+------------------
+Job Descriptions 
+------------------
+NIST PREP Research Scientist:
+- Collaborates with NIST’s Statistical Engineering Division to advance measurement science, data analysis, and standards development.
+- Conduct research and analysis to apply statistical and computational methods to solving complex problems in metrology, physical sciences, engineering, or manufacturing.
+- Coordinate collaborative projects by working alongside NIST scientists to design experiments, develop models, and analyze data to improve measurement accuracy and uncertainty quantification.
+- Contribute to method development efforts in innovative statistical techniques, algorithms, or software tools for data-driven decision-making.
+- Provide statistical expertise to interdisciplinary laboratories and external partners in industry or academia. 
+- Disseminate co-authored reports, publications, or presentations to share research findings with the broader scientific community.
+
+
+Swarthmore Assistant Professor Duties and Responsibilities: 
+- Teach introductory and advanced statistics courses, with opportunities to develop new courses in the candidate’s area of expertise.
+- Maintain an active research program involving undergraduate students.
+- Contribute to the growth of the statistics curriculum and interdisciplinary collaborations.
+- Advise and mentor students, fostering an inclusive and supportive learning environment.
+- Participate in departmental and college-wide service activities.
+
+Swarthmore Visiting Assistant Professor Duties and Responsibilities: 
+- Teach introductory and advanced statistics courses, with opportunities to develop new courses in the candidate’s area of expertise.
+- Maintain an active research program involving undergraduate students.
+- Participate in departmental service activities.
+
+Office of Statistical Consulting part-time statistical consultant:
+- Provide consulting assistance to clients with study design, data analysis, and interpretation of statistical results.
+- Offer methodological guidance by recommending appropriate statistical techniques for research projects (e.g., regression, ANOVA,survey methods).
+- Provide software support andhelp users implement analyses in R, SAS, SPSS, Python, or other statistical software.
+- Collaborate with clients from various backgrounds and disciplines under the supervision of senior consultants to ensure accurate and meaningful statistical advice
+
+--------------
+Job Titles 
+--------------
+Senior Research Analyst
+Data Analyst 
+Data Scientist 
+Research Scientist
